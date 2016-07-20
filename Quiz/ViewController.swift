@@ -51,7 +51,7 @@ class ViewController: UIViewController {
     }
     
     func fadeOut()  {
-        UIView.animateWithDuration(0.2, animations: {
+        UIView.animateWithDuration(3, animations: {
             self.questionLabel.alpha = 0
         })
     }
